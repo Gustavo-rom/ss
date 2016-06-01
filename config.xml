@@ -7,9 +7,9 @@
 		
 	<!--versionCode is optional and Android only-->
 	
-	<name>CBTIS 16</name>
+	<name>cbtis</name>
 	
-	<description>CBTIS 16
+	<description>cbtis
 	</description>
 	
 	<preference name="phonegap-version" value="3.1.0" />
