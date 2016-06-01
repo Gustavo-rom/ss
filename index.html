@@ -1,0 +1,377 @@
+﻿<!doctype html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <title>Septima Aplicacion</title>
+ <style>
+ #Comunicate{
+	 text-align:center;
+	 border-radius:5%;
+	 max-width: 90%;
+	 background-color:#F63;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+ #principal{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 90%;
+	 background-color:#F63;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+ #video{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 50%;
+	 background-color:#FF3;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+  #mision{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 66%;
+	 background-color:#FF3;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+  #vision{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 66%;
+	 background-color:#FF3;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+   #plantel{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 55%;
+	 background-color:#09F;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+  #servicio{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 55%;
+	 background-color:#09F;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+ #planes{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 55%;
+	 background-color:#0CF;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+  #objectivo{
+ 	 text-align:center;
+	 border-radius:10%;
+	 max-width: 55%;
+	 background-color:#FF3;
+	 border:1px solid black;
+	 margin:0 auto;
+ }
+
+
+
+ </style>
+
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/CBTIS16.min.css "/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js" type="text/javascript"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ 
+ </head>
+<body onLoad="MM_preloadImages('imagenes/dgeti02.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+
+<h1>CBTIS 16</h1>
+</div>
+<div>
+<div id="principal">
+<center>
+  <img src="imagenes/images.jpg" width="43%" height="28%">
+  <center>
+  <div id="plantel">
+  <h1>"PLANTEL"</h1>
+  </div>
+  <div id="mision">
+  <h2>*MISION*</h2>
+
+  <p>Formar personas con conocimientos tecnológicos en las areas industrial, comercial y de servicios, a través de la preparación de profesionales tecnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</p>
+  </div>
+  <div id="vision">
+<h2>*VISION*</h2>  
+  <p>Ser una institucion que proporcione una formacion integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocacion local, ademas de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la poblacion que demanda este nivel educativo en nuestro plantel.</p>
+  </div>
+  <br>
+ 
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/dgeti02.jpg',1)"><img src="imagenes/cbtis.jpg" width="400" height="225" id="Image10"></a> 
+  <br>
+  <br>
+  <div id="video">
+  <h1>&quot;video&quot;</h1>
+  
+  <iframe width="455" height="360" src="https://www.youtube.com/embed/MKcdz-AM138" frameborder="0" allowfullscreen></iframe>
+</center>
+</p>
+</p>
+</p>
+
+</div>
+
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>DOCENTES</h1>
+<div>
+<center>
+<div id="servicio">
+<h1>SERVICIO SOCIAL</h1>
+</div>
+<div id="objectivo">
+ <h2>*SU OBJECTIVO ES*</h2> 
+ <img src="imagenes/DSCN2017.jpg" width="35%" height="22%">
+ <br>
+  <p>Contribuir a la formación integral del educando, desarrollando en el prestador un alto sentido de solidaridad social y de compromiso con su comunidad y retribuir a la sociedad por su contribución en la formación de los alumnos durante su proceso educativo.</p>
+
+ <p>El departamento cuenta con convenios en las dependencias de gobierno, sector salud y juntas auxiliares en donde se cubre el 100% de la demanda de los jóvenes de 5to. Semestre, para que lo terminen de acuerdo a los tiempos establecidos, para esto se realizan platicas en donde se les comenta la importancia y la necesidad de hacerlo, para que se puedan certificar y titular del bachillerato.</p>
+ 
+ <h3>Documentos Requeridos:</h3>
+ <p>Original y Copia del Acta de Nacimiento Actualizada (Tamaño Carta)</p>
+<p>Folder Color Crema (Tamaño Carta)</p>
+<p>Solicitud y Carta compromiso (Firmadas por el alumno) </p>
+<p>Carta de Asignación (Firma del responsable y Sello de la institución)</p> 
+<p>2 Informes Bimestrales (Firma del responsable y Sello de la institución; Carta de aceptación con Firma del alumno)</p> 
+<p>Informe final con cuartilla de reporte (Firma del responsable y Sello de la institución; Firma del alumno</p>
+ <p> 
+ <br>
+   <br>
+   <a href="http://www.cbtis016.edu.mx/index.php/plantel/ubicacion-del-plantel">Mapa de Ubicación</a>   
+   
+   </p>
+</div>
+ </p>
+  <br>
+  <div id="planes">
+  <h2>*PLANES Y PROGRAMAS DE ESTUDIO*</h2>
+  <center>
+<img src="imagenes/PLANE Y  PROGRMAS.jpg" width="58%" height="28%">
+
+<a href="http://www.dgeti.sep.gob.mx/index.php?option=com_content&view=article&id=263:artplanesyprogramas&catid=84:catdocentes&Itemid=665">PLANES Y PROGRAMAS</a>
+<br>
+
+<h2>*CALENDARIO SEP*</h2>
+<img src="imagenes/CALENDARIO.jpg"width="58%" height="28%">
+<a href="https://www.sep.gob.mx/work/models/sep1/Resource/5464/1/images/calendario_2015_2016.jpg">Calendario</a>
+<br>
+
+<h2>*CALENDARIO DE ACTIVIDADES*</h2>
+<img src="imagenes/SEP.jpg"width="58%" height="28%">
+<a href="https://drive.google.com/file/d/0B-Yz_u3SAFZIak52YVNsODdfTDg/view?pref=2&pli=1">Calendario SEP</a>
+</div>
+
+</div>
+</div>
+</div>
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>SERVICIOS ESCOLARES</h1>
+<div>
+<br>
+</div>
+
+<div>
+<center>
+</div>
+<p>
+<center>
+<h1>BECAS</h1>
+<p>En esta sección se describen los diferentes tipos de becas que otorga la Secretaría de Educación Pública (SEP) a través de la Subsecretaría de Educación Media Superior (SEMS)
+<br>
+<img src="imagenes/becas.png"width="194" height="216">
+<h2>GOBIERNO FEDERAL</h2>
+<p>*EXCELENCIA PROMEDIO</p>
+<p>*INGRESO</p>
+<p>*PERMANENCIA</p>
+<p>*SALARIO PRÁCTICAS PROFESIONALES</p>
+<p>*CONTRA EL ABANDONO ESCOLA</p>
+<h2>GOBIERNO ESTATAL</h2>
+<p>*OPORTUNIDADES</p>
+<br>
+<h2>Vinculación: </h2>
+<p>Proceso que permite establecer relaciones entre el sector productivo e instituciones de educación y la sociedad, con el objeto de atender necesidades mutuas a través de la participación de todos los actores involucrados en un proceso integral que genere mecanismos de interacción, así como la retroalimentación de los programas de formación de recursos humano, para beneficio del país y el mejoramiento continuo de cada institución.</p>
+<br>
+<center>
+<h1>Departamento de Vinculación con el Sector Productivo: </h1>
+<img src="imagenes/Depto.Vinculacion.png" width="194" height="216">
+<p>1. Organizar, coordinar y supervisar las actividades encaminadas a vincular la  educación tecnológica con el sector productivo de bienes y servicios, de acuerdo con los lineamientos establecidos por la Dirección General de Educación Tecnológica Industrial.</p>
+<p>2. Formular el programa anual de vinculación y proponerlo a la Subdirección Técnica para lo conducente.</p>
+<p>3. Integrar el cuadro de necesidades de recursos humanos, financieros y materiales requeridos para el cumplimiento de las labores encomendadas al departamento y presentarlo a la Subdirección Técnica para lo conducente.</p>
+<p>4. Elaborar diagnósticos socioeconómicos del área de influencia del plantel y jerarquizar las necesidades de bienes y servicios para determinar su atención.</p>
+<p>5. Participar con la dirección del plantel en la celebración de convenios de vinculación del plantel con el sector productivo de bienes y servicios de la región y realizar su seguimiento.</p>
+<p>6. Solicitar a la Subdirección Técnica, la participación del personal docente y técnico que se requiera en las acciones de vinculación.</p>
+<p>7. Participar en los programas de capacitación y actualización del personal docente y técnico encargado de la vinculación con el sector productivo de bienes y servicios.</p>
+<p>8. Establecer y mantener coordinación con instituciones y dependencias que tengan injerencia con el sector productivo de bienes y servicios de la región, a fin de apoyar el programa de vinculación del plantel.</p>
+<p>9. Apoyar las acciones encaminadas al desarrollo de las prácticas profesionales y a la prestación del servicio social de los alumnos.</p>
+<p>10. Registrar el avance y cumplimiento de los proyectos de vinculación que realice el plantel.
+<p>11. Proporcionar, en los términos y plazos establecidos, la información que le sea requerida por la Subdirección Técnica.</p>
+<p>12. Expedir las constancias de cumplimiento de prácticas a los alumnos del plantel.</p>
+<p>13. Participar en la elaboración del programa operativo anual y el anteproyecto del presupuesto de acuerdo con las normas y procedimientos establecidos por la Dirección General de Educación Tecnológica Industrial.</p>
+<p>14. Expedir las constancias de cumplimiento de prácticas a los alumnos del plantel.</p>
+<p>15. Mantener comunicación con las demás áreas del plantel para el mejor desempeño de sus funciones.</p>
+<br>
+
+<!-- Start WOWSlider.com -->
+<iframe src="wowslider.html" style="width:640px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+</p>
+</p>
+</p>
+</div>
+</div>
+
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+</div>
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+</div>
+<div data-role="main" class="ui-content"> </div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>"OFERTA EDUCATIVA"</h2>
+<a href="http://www.cbtis016.edu.mx/">Para mas informacion clic aqui..</a>
+</li>
+</ul>
+</div>
+<center>
+<div id="Comunicate">
+<h2>Mas informes</h2>
+<p>Director: Ramos Bravo Anselmo</p>
+<p>CCT: 21DCT0046</p>
+<p>Tel.: (244) 4462940</p>
+<p>Dirección: Fracc. Ricardo Flores Magon Domicilio Conocido S/N. Atlixco, Puebla. CP 74240</p>
+<p>Correo Electrónico: cbtis016.dir@dgeti.sems.gob.mx</p>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/w.png" width="46" height="46">
+</div>
+<div>
+
+<h4>GUSTAVO ROMAN HERNANDEZ</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a"></div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>"OFERTA EDUCATIVA"</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+</div>
+<div>
+</div>
+<div>
+<center>
+<h2>TÉCNICO EN ADMINISTRACION DE RECURSOS HUMANOS</h2>
+  <p>  Elabora y gestiona documentacion administrativa referente a recursos humanos, integra al personal a la organizacion, asiste en actividades de capacitacion, desarrollo y evaluacion del personal, así como determina las remuneraciones al personal.
+<br>
+<img src="imagenes/descarga.jpg" width="192" height="91">
+<h2>TÉCNICO EN PROGRAMACION</h2>
+<p>
+TECNICO EN PROGRAMACION
+
+Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño grafico, mantenimiento, outsourcing
+<br>
+<br>
+<img src="imagenes/INFO-PROGRAMACIÓN-1024x675.jpg" width="174" height="80">
+<h2>TECNICO EN ELECTRICIDAD</h2>
+<p>La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupacion de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones electricas residenciales y comerciales, así como proporcionar mantenimiento a maquinas electricas.
+<br>
+<img src="imagenes/images (1).jpg" width="174" height="80">
+<h2>TECNICO EN MECANICA INDUSTRIAL </h2>
+<p>Profesionista que da mantenimiento a los sistemas de transmision de potencia utilizando las máquinas herramientas convencionales, de control numerico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.
+<br>
+<img src="imagenes/banner_mecanica_industrial1.jpg"width="174" height="80">
+<br>
+<h1>ESPACIOS QUE OFRECEMOS</h1>
+<p>-Aulas
+<p>-Laboratorio  de Quimica
+<p>-Laboratorio  de Logistica
+<p>-Laboratorio  de Fisica
+<p>-Laboratorio  de Computo
+<p>-Laboratorio de Ingles
+<p>-Taller de Programacion
+<p>-Taller de Autimatizacion
+<p>-Biblioteca con equipo de computo con servicio de internet
+<p>-Edificio de oficinas administrativas
+<br>
+<img src="imagenes/instal.png" width="174" height="80">
+<br>
+<h1>ESPACIOS DEPORTIVOS</h1>
+<p>-Campos de Futbol.
+<p>-Cancha de voleibol
+<p>-Canacha de basquetbol
+<p>-Plaza Civica
+<br>
+<img src="imagenes/081.jpg" width="174" height="80">
+
+
+<br>
+<div>
+</div>
+</p>
+<p>
+</p>
+</div>
+</div>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Aplicacion  CBTIS16, GUSTAVO ROMAN HERNANDEZ</h4>
+</div>
+ </div>
+</body>
+</html>
